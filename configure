@@ -1,0 +1,11 @@
+#!/bin/sh
+
+export CC=clang
+export CXX=clang++
+
+rm -rf build && mkdir build
+cd build
+cmake ../ && make
+
+exit 0
+
